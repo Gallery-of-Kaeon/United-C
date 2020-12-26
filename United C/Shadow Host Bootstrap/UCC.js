@@ -19,7 +19,7 @@ try {
 	var io = require("https://raw.githubusercontent.com/Gallery-of-Kaeon/JavaScript-Utilities/master/JavaScript%20Utilities/IO/ioNode.js");
 	var oneSuite = require("https://raw.githubusercontent.com/Gallery-of-Kaeon/JavaScript-Utilities/master/JavaScript%20Utilities/United%20Bootstrap/ONESuite.js");
 
-	let path = process.argv[2];
+	let path = process.argv[5];
 
 	if(path.indexOf(".") == -1)
 		path += ".uc";
