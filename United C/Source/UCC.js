@@ -18,6 +18,7 @@ try {
 	var cmd = require("node-cmd");
 	var io = require("./io.js");
 	var oneSuite = require("./ONESuite.js");
+	var uc = require("./UC.js");
 
 	let path = process.argv[2];
 
@@ -27,7 +28,7 @@ try {
 	let appName =
 		path.substring(0, path.lastIndexOf(".")).split(" ").join("_");
 
-	let code = oneSuite.preprocess(io.open(path));
+	let code = uc(oneSuite.preprocess(io.open(path)));
 
 	io.save(code, appName + ".c");
 	io.save(makefile.split("[APP_NAME]").join(appName), "Makefile");
