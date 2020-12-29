@@ -1,17 +1,17 @@
 let makefile =
-`CC      = gcc
-CFLAGS  = -g
-RM      = rm -f
+`CC		= gcc
+CFLAGS	= -g
+RM		= rm -f
 
 default: all
 
 all: [APP_NAME]
 
 [APP_NAME]: [APP_NAME].c
-    $(CC) $(CFLAGS) -o [APP_NAME] [APP_NAME].c
+	$(CC) $(CFLAGS) -o [APP_NAME] [APP_NAME].c
 
 clean veryclean:
-    $(RM) [APP_NAME]`;
+	$(RM) [APP_NAME]`;
 
 try {
 
