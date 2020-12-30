@@ -32,7 +32,7 @@ may be compiled using the following command:
 
     npx kaeon-united ucc read hello.uc
 
-_Note: You must have gcc and make installed for this command to work._
+_Note: You must have gcc, make, and Node.js installed for this command to work._
 
 <h2 align="center">The Common C Convention</h2>
 
