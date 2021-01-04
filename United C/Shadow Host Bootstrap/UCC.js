@@ -16,7 +16,7 @@ clean veryclean:
 try {
 
 	var cmd = require("node-cmd");
-	var io = require("https://raw.githubusercontent.com/Gallery-of-Kaeon/JavaScript-Utilities/master/JavaScript%20Utilities/IO/ioNode.js");
+	var io = require("https://raw.githubusercontent.com/Gallery-of-Kaeon/JavaScript-Utilities/master/JavaScript%20Utilities/IO/io.js");
 	var oneSuite = require("https://raw.githubusercontent.com/Gallery-of-Kaeon/JavaScript-Utilities/master/JavaScript%20Utilities/United%20Bootstrap/ONESuite.js");
 	var uc = require("https://raw.githubusercontent.com/Gallery-of-Kaeon/United-C/main/United%20C/Shadow%20Host%20Bootstrap/UC.js");
 
