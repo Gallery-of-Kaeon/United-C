@@ -115,3 +115,37 @@ United C allows @ to be used as the address token in addition to &.
 
 The main file and all local dependency files shall be preprocessed using the
 [Universal Preprocessor](https://github.com/Gallery-of-Kaeon/Kaeon-FUSION/blob/master/Kaeon%20FUSION/Documentation/1%20-%20Foundations/3%20-%20Universal%20Preprocessor/README.md) upon compilation.
+
+<h2 align="center">CSB</h2>
+
+Character Separated Binary,
+or CSB for short,
+is a simple text format for encoding raw binary data.
+
+In CSB,
+bytes may be written in binary format and may be separated by any form of whitespace.
+Said bytes may omit leading zeroes.
+
+For example,
+if a file called "data.csb" contained the following code:
+
+    1000001
+    1000010
+    1000011
+
+then running the following command:
+
+	npx kaeon-united assemble open data.csb data.out
+
+would produce a binary file called "data.out",
+which if opened in a text editor would display:
+
+    ABC
+
+If,
+after that,
+this command were to be run:
+
+    npx kaeon-united disassemble read data.out data2.csb
+
+Then a file called "data2.csb" would be generated containing the same content as data.csb.
