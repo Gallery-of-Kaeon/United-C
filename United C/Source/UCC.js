@@ -1,3 +1,9 @@
+var moduleDependencies = {
+	io: "https://raw.githubusercontent.com/Gallery-of-Kaeon/JavaScript-Utilities/master/JavaScript%20Utilities/IO/io.js",
+	oneSuite: "https://raw.githubusercontent.com/Gallery-of-Kaeon/Kaeon-FUSION/master/Kaeon%20FUSION/APIs/ONE%20Suite/JavaScript/ONESuite.js",
+	uc: "https://raw.githubusercontent.com/Gallery-of-Kaeon/United-C/main/United%20C/Source/UC.js"
+};
+
 let makefile =
 `CC		= gcc
 CFLAGS	= -g
@@ -16,9 +22,9 @@ clean veryclean:
 try {
 
 	var cmd = require("node-cmd");
-	var io = require("./io.js");
-	var oneSuite = require("./ONESuite.js");
-	var uc = require("./UC.js");
+	var io = require(moduleDependencies.io);
+	var oneSuite = require(moduleDependencies.oneSuite);
+	var uc = require(moduleDependencies.uc);
 
 	let path = process.argv[2];
 
