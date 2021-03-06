@@ -114,7 +114,7 @@ United C allows @ to be used as the address token in addition to &.
 <h3>The Universal Preprocessor</h3>
 
 The main file and all local dependency files shall be preprocessed using the
-[Universal Preprocessor](https://github.com/Gallery-of-Kaeon/Kaeon-FUSION/blob/master/Kaeon%20FUSION/Documentation/1%20-%20Foundations/3%20-%20Universal%20Preprocessor/README.md) upon compilation.
+[Universal Preprocessor](https://github.com/Gallery-of-Kaeon/Kaeon-FUSION/blob/master/Kaeon%20FUSION/Documentation/Guide/1%20-%20Foundations/3%20-%20Universal%20Preprocessor/README.md) upon compilation.
 
 <h2 align="center">CSB</h2>
 
