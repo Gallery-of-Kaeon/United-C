@@ -1,5 +1,5 @@
 var moduleDependencies = {
-	tokenizer: "https://raw.githubusercontent.com/Gallery-of-Kaeon/JavaScript-Utilities/master/JavaScript%20Utilities/Tokenizer/tokenizer.js",
+	tokenizer: "https://raw.githubusercontent.com/Gallery-of-Kaeon/JavaScript-Utilities/master/JavaScript%20Utilities/Utilities/Data/tokenizer.js",
 };
 
 var tokenizer = require(moduleDependencies.tokenizer);
