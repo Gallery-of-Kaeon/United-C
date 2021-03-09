@@ -26,7 +26,7 @@ try {
 	var oneSuite = require(moduleDependencies.oneSuite);
 	var uc = require(moduleDependencies.uc);
 
-	let path = process.argv[2];
+	let path = process.argv[5];
 
 	if(path.indexOf(".") == -1)
 		path += ".uc";
